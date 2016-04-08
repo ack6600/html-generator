@@ -6,4 +6,3 @@ class html_writer():
         with open(file, 'w') as doc:
             for tag in self.tags_towrite:
                 firstchar = '<'
-                doc.write(
