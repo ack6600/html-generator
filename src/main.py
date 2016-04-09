@@ -6,4 +6,4 @@ parser.add_argument('style',type=str)
 args = parser.parse_args()
 parser = html_parser()
 with open(args.style, 'r') as read:
-  parser.feed(read.read())
+    parser.feed(read.read())
